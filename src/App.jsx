@@ -118,11 +118,6 @@ export default function App() {
             {!analysis && !isAnalyzing && (
               <div className="space-y-8 animate-fade-in">
                 <div className="text-center space-y-4 mb-12">
-                  <div className="inline-flex items-center gap-2 mb-4">
-                    <Sparkles className="w-5 h-5 text-yellow-400 animate-pulse" />
-                    <span className="text-sm font-semibold text-purple-400 uppercase tracking-wider">Análisis con IA</span>
-                    <Sparkles className="w-5 h-5 text-yellow-400 animate-pulse" />
-                  </div>
                   <h2 className="text-5xl font-bold mb-4">
                     Analiza tus datos de{' '}
                     <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
