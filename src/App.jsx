@@ -60,7 +60,7 @@ export default function App() {
       const formData = new FormData();
       formData.append('data', file);
 
-      const response = await fetch('https://n8n-latest-a738.onrender.com/webhook-test/datainsight', {
+      const response = await fetch('https://n8n-latest-a738.onrender.com/webhook/Data', {
         method: 'POST',
         body: formData,
       });
