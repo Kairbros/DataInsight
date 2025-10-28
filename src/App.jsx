@@ -310,13 +310,6 @@ export default function App() {
             )}
           </div>
         </main>
-
-        {/* Footer */}
-        <footer className="w-full py-6 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
-          <div className="max-w-7xl mx-auto text-center text-sm text-slate-500">
-            <p>DataInsight</p>
-          </div>
-        </footer>
       </div>
 
       {/* Animaciones */}
