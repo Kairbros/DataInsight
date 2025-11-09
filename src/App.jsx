@@ -84,7 +84,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-slate-950 text-white relative overflow-x-hidden flex flex-col">
+    <div className="min-h-screen w-full bg-black text-white relative overflow-x-hidden flex flex-col">
       
       {/* Patrón de fondo */}
       <div className="fixed inset-0 bg-[linear-gradient(rgba(139,92,246,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.05)_1px,transparent_1px)] bg-[size:50px_50px] pointer-events-none"></div>
