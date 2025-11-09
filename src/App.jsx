@@ -119,10 +119,11 @@ export default function App() {
               <div className="space-y-8 animate-fade-in">
                 <div className="text-center space-y-4 mb-12">
                   <h2 className="text-5xl font-bold mb-4">
-                    Analiza tus datos de{' '}
+                    Sube y analiza tus {' '}
                     <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-                      Excel
+                      Datos {' '}
                     </span>
+                    de manera rapida y sencilla
                   </h2>
                   <p className="text-lg text-slate-400 max-w-2xl mx-auto">
                     Sube tu archivo y obtén insights instantáneos con inteligencia artificial
@@ -174,7 +175,7 @@ export default function App() {
                             />
                             <span className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 rounded-xl font-semibold cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50">
                               <FileSpreadsheet className="w-5 h-5" />
-                              Seleccionar archivo Excel
+                              Seleccionar archivo
                             </span>
                           </label>
 
